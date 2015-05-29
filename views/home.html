@@ -1,0 +1,15 @@
+<div class="main">
+  <div class="container">
+
+    <h2>Produce Guide</h2>
+    <div class="row">
+      <div class="item col-md-4" align="center" ng-repeat="guide in guides">
+        <a href="#/guides/{{$index}}">
+          <img class="img-responsive" ng-src="{{ guide.url }}" >
+          <p class="title">{{ guide.title }}</p>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
