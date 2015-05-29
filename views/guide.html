@@ -2,9 +2,58 @@
   <div class="container">
     <img ng-src="{{ detail.url }}">
     <h2 class="photo-title">{{ detail.title }} </h2>
-    <p class=""> </p>
-    <p class=""> {{ detail.package }} </p>
-    <p class=""> {{ detail.ShippingGuide }} </p>
-	<p class=""> {{ detail.reeferSetting[0] }} </p>
+    <table id="guides">
+      <tbody>
+      <tr>
+        <td>
+          Package:
+        </td>
+        <td>
+          {{ detail.package }}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Pallet Size:
+        </td>
+        <td>
+          {{ detail.PalletSize }}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Temperature:
+        </td>
+        <td>
+          {{ detail.reeferSetting[0] }}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Ventilation:<br />(Air Exchange: cbm/h)
+        </td>
+        <td>
+          {{ detail.reeferSetting[1] }}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Humidity<br />(relative %)
+        </td>
+        <td>
+          {{ detail.reeferSetting[2] }}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Approximate Shelf Life:
+        </td>
+        <td>
+          {{ detail.reeferSetting[3] }}
+        </td>
+      </tr>
+      </tbody>
+    </table>
   </div>
 </div>
+
