@@ -1,6 +1,6 @@
 [
   {
-    "title": "APPLE",
+    "title": "APPLES",
     "url": "assets/saved_resource(1).jpeg",
     "package": "Tray Pack, Heavy Pack",
     "PalletSize": "Ocean Shipment: 49 Boxes/Pallet",
@@ -13,7 +13,7 @@
     "Availability": ""
   },
   {
-    "title": "BLUEBERRY",
+    "title": "BLUEBERRIES",
     "url": "assets/saved_resource(17).jpeg",
     "package": "",
     "PalletSize": "California: Air: 192 Cases/Pallet; Ocean:300 Cases/Pallet",
@@ -26,7 +26,7 @@
     "Availability": ""
   },
   {
-    "title": "AVOCADO",
+    "title": "AVOCADOS",
     "url": "assets/saved_resource(2).jpeg",
     "package": "Double Layers: 25lbs, Single Layer: 15lbs",
     "PalletSize": "34F",
@@ -65,7 +65,7 @@
     "Availability": ""
   },
   {
-    "title": "Citrus",
+    "title": "CITRUS",
     "url": "assets/saved_resource(5).jpeg",
     "package": "",
     "PalletSize": "",
