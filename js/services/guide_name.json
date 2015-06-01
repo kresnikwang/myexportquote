@@ -51,7 +51,7 @@
     ],
     "Availability": ""
   },
-  "GRAPES":{
+  "GRAPES": {
     "title": "GRAPES",
     "url": "assets/saved_resource(4).jpeg",
     "package": "9-10bags per box, ",
@@ -64,7 +64,7 @@
     ],
     "Availability": ""
   },
-  "CITRUS":{
+  "CITRUS": {
     "title": "CITRUS",
     "url": "assets/saved_resource(5).jpeg",
     "package": "",
@@ -77,7 +77,7 @@
     ],
     "Availability": ""
   },
-  "PEARS":{
+  "PEARS": {
     "title": "PEARS",
     "url": "assets/saved_resource(6).jpeg",
     "package": "",
@@ -90,7 +90,7 @@
     ],
     "Availability": ""
   },
-  "APRICOTS":{
+  "APRICOTS": {
     "title": "APRICOTS",
     "url": "assets/saved_resource(8).jpeg",
     "package": "Double-Layers/Volume Fill",
@@ -103,7 +103,7 @@
     ],
     "Availability": ""
   },
-  "BLACKBERRIES":{
+  "BLACKBERRIES": {
     "title": "BLACKBERRIES",
     "url": "assets/saved_resource(9).jpeg",
     "package": "",
@@ -116,7 +116,7 @@
     ],
     "Availability": ""
   },
-  "CHERRIES":{
+  "CHERRIES": {
     "title": "CHERRIES",
     "url": "assets/saved_resource(10).jpeg",
     "package": "",
@@ -129,7 +129,7 @@
     ],
     "Availability": ""
   },
-  "KIWIFRUIT":{
+  "KIWIFRUIT": {
     "title": "KIWIFRUIT",
     "url": "assets/saved_resource(11).jpeg",
     "package": "",
@@ -142,7 +142,7 @@
     ],
     "Availability": ""
   },
-  "NECTARINES":{
+  "NECTARINES": {
     "title": "NECTARINES",
     "url": "assets/saved_resource(12).jpeg",
     "package": "",
@@ -155,7 +155,7 @@
     ],
     "Availability": ""
   },
-  "CUCUMBERS":{
+  "CUCUMBERS": {
     "title": "CUCUMBERS",
     "url": "assets/saved_resource(18).jpeg",
     "package": "",
@@ -168,7 +168,7 @@
     ],
     "Availability": ""
   },
-  "PEACHES":{
+  "PEACHES": {
     "title": "PEACHES",
     "url": "assets/saved_resource(20).jpeg",
     "package": "",
@@ -181,7 +181,7 @@
     ],
     "Availability": ""
   },
-  "PEPPERS":{
+  "PEPPERS": {
     "title": "PEPPERS",
     "url": "assets/saved_resource(13).jpeg",
     "package": "",
@@ -194,7 +194,7 @@
     ],
     "Availability": ""
   },
-  "WATERMELONS":{
+  "WATERMELONS": {
     "title": "WATERMELONS",
     "url": "assets/saved_resource(15).jpeg",
     "package": "",
@@ -207,7 +207,7 @@
     ],
     "Availability": ""
   },
-  "ASPARAGUS":{
+  "ASPARAGUS": {
     "title": "ASPARAGUS",
     "url": "assets/saved_resource(16).jpeg",
     "package": " ",
@@ -220,7 +220,7 @@
     ],
     "Availability": ""
   },
-  "TOMATOES":{
+  "TOMATOES": {
     "title": "TOMATOES",
     "url": "assets/saved_resource(22).jpeg",
     "package": "",

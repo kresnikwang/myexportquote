@@ -2,9 +2,10 @@
   <div class="container">
 
     <h2>Produce Guide</h2>
+	Search: <input ng-model="query">
     <div class="row">
-      <div class="item col-md-4" align="center" ng-repeat="guide in guides">
-        <a href="#/guides/{{$index}}">
+      <div class="item col-md-4" align="center" ng-repeat="guide in guides | filter:query">
+        <a href="#/guides/{{ guide.title }}">
           <img class="img-responsive" ng-src="{{ guide.url }}" >
           <p class="title">{{ guide.title }}</p>
         </a>
