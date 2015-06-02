@@ -2,7 +2,12 @@
   <div class="container">
 
     <h2>Produce Guide</h2>
-	Search: <input ng-model="query">
+    <div class="input-group search">
+      <input type="text" class="form-control" ng-model="query" placeholder="Commodity Name" aria-describedby="basic-addon2">
+      <span class="input-group-addon glyphicon glyphicon-search" aria-hidden="true" id="sizing-addon2"></span>
+    </div>
+
+
     <div class="row">
       <div class="item col-md-4" align="center" ng-repeat="guide in guides | filter:query">
         <a href="#/guides/{{ guide.title }}">
