@@ -1,0 +1,236 @@
+{
+  "APPLES": {
+    "title": "APPLES",
+    "url": "assets/saved_resource(1).jpeg",
+    "package": "Tray Pack, Heavy Pack",
+    "PalletSize": "Ocean Shipment: 49 Boxes/Pallet",
+    "reeferSetting": [
+      "-1°C to 4°C(30°F to 35°F)",
+      "25 cbm/h",
+      "90 to 95",
+      "2 to 7 months"
+    ],
+    "Availability": ""
+  },
+  "BLUEBERRIES": {
+    "title": "BLUEBERRIES",
+    "url": "assets/saved_resource(17).jpeg",
+    "package": "12X4.4oz(125g); 12X12oz(1 dry pint); 8X16oz(450g)",
+    "PalletSize": "California, Chile: Air: 192 Cases/Pallet; Ocean:6000 Cases/Shipment;",
+    "reeferSetting": [
+      "-0.5°C to 1°C(32°F to 33°F)",
+      "0 to 10 cbm/h",
+      "90 to 95",
+      "10 to 14 days"
+    ],
+    "Availability": ""
+  },
+  "AVOCADOS": {
+    "title": "AVOCADOS",
+    "url": "assets/saved_resource(2).jpeg",
+    "package": "Double Layers: 25lbs, Single Layer: 15lbs",
+    "PalletSize": "34F",
+    "reeferSetting": [
+      "4°C to 13°C(39°F to 55°F)",
+      "40 to 60 cbm/h",
+      "85 to 90",
+      "2 to 3 weeks"
+    ],
+    "Availability": ""
+  },
+  "CANTALOUPE": {
+    "title": "CANTALOUPE",
+    "url": "assets/saved_resource(3).jpeg",
+    "package": "",
+    "PalletSize": "",
+    "reeferSetting": [
+      "5°C to 10°C(41°F to 50°F)",
+      "0 to 10 cbm/h",
+      "90 to 95",
+      "10 to 14 days"
+    ],
+    "Availability": ""
+  },
+  "GRAPES": {
+    "title": "GRAPES",
+    "url": "assets/saved_resource(4).jpeg",
+    "package": "9-10bags per box, ",
+    "PalletSize": "",
+    "reeferSetting": [
+      "-1°C to 0°C(30°F to 32°F)",
+      "10 to 15 cbm/h",
+      "85 to 95",
+      "1 to 5 months"
+    ],
+    "Availability": ""
+  },
+  "CITRUS": {
+    "title": "CITRUS",
+    "url": "assets/saved_resource(5).jpeg",
+    "package": "",
+    "PalletSize": "",
+    "reeferSetting": [
+      "2°C to 10°C(35°F to 50°F)",
+      "15 to 25 cbm/h",
+      "85 to 90",
+      "1 to 3 months"
+    ],
+    "Availability": ""
+  },
+  "PEARS": {
+    "title": "PEARS",
+    "url": "assets/saved_resource(6).jpeg",
+    "package": "",
+    "PalletSize": "",
+    "reeferSetting": [
+      "-1.5°C to 0°C(29°F to 32°F)",
+      "15 to 25 cbm/h",
+      "90 to 95",
+      "1 to 8 months"
+    ],
+    "Availability": ""
+  },
+  "APRICOTS": {
+    "title": "APRICOTS",
+    "url": "assets/saved_resource(8).jpeg",
+    "package": "Double-Layers/Volume Fill",
+    "PalletSize": "Air: 64 or 60 Cases/Pallet",
+    "reeferSetting": [
+      "-0.5°C to 0°C(31°F to 32°F)",
+      "15 to 25 cbm/h",
+      "90 to 95",
+      "2 to 5 weeks"
+    ],
+    "Availability": ""
+  },
+  "BLACKBERRIES": {
+    "title": "BLACKBERRIES",
+    "url": "assets/saved_resource(9).jpeg",
+    "package": "",
+    "PalletSize": "",
+    "reeferSetting": [
+      "-0.5°C to 0°C(31°F to 32°F)",
+      "0 to 10 cbm/h",
+      "90 to 95",
+      "10 to 14 months"
+    ],
+    "Availability": ""
+  },
+  "CHERRIES": {
+    "title": "CHERRIES",
+    "url": "assets/saved_resource(10).jpeg",
+    "package": "",
+    "PalletSize": "",
+    "reeferSetting": [
+      "-1°C to 0°C(30°F to 32°F)",
+      "0 to 10 cbm/h",
+      "90 to 95",
+      "2 to 3 weeks"
+    ],
+    "Availability": ""
+  },
+  "KIWIFRUIT": {
+    "title": "KIWIFRUIT",
+    "url": "assets/saved_resource(11).jpeg",
+    "package": "",
+    "PalletSize": "",
+    "reeferSetting": [
+      "0°C(32°F)",
+      "20 to 60 cbm/h",
+      "90 to 95",
+      "2 to 3 months"
+    ],
+    "Availability": ""
+  },
+  "NECTARINES": {
+    "title": "NECTARINES",
+    "url": "assets/saved_resource(12).jpeg",
+    "package": "",
+    "PalletSize": "",
+    "reeferSetting": [
+      "-0.5°C to 0°C(31°F to 32°F)",
+      "15 to 25 cbm/h",
+      "90 to 95",
+      "2 to 5 weeks"
+    ],
+    "Availability": ""
+  },
+  "CUCUMBERS": {
+    "title": "CUCUMBERS",
+    "url": "assets/saved_resource(18).jpeg",
+    "package": "",
+    "PalletSize": "",
+    "reeferSetting": [
+      "10°C to 13°C(50°F to 55°F)",
+      "15 to 25 cbm/h",
+      "90 to 95",
+      "10 to 14 days"
+    ],
+    "Availability": ""
+  },
+  "PEACHES": {
+    "title": "PEACHES",
+    "url": "assets/saved_resource(20).jpeg",
+    "package": "",
+    "PalletSize": "",
+    "reeferSetting": [
+      "-0.5°C to 0°C(31°F to 32°F)",
+      "15 to 25 cbm/h",
+      "90 to 95",
+      "2 to 5 weeks"
+    ],
+    "Availability": ""
+  },
+  "PEPPERS": {
+    "title": "PEPPERS",
+    "url": "assets/saved_resource(13).jpeg",
+    "package": "",
+    "PalletSize": "",
+    "reeferSetting": [
+      "7°C to 10°C(44°F to 50°F)",
+      "10 to 15 cbm/h",
+      "90 to 95",
+      "2 to 7 months"
+    ],
+    "Availability": ""
+  },
+  "WATERMELONS": {
+    "title": "WATERMELONS",
+    "url": "assets/saved_resource(15).jpeg",
+    "package": "",
+    "PalletSize": "",
+    "reeferSetting": [
+      "9°C to 12°C(30°F to 35°F)",
+      "25 to 30 cbm/h",
+      "90 to 95",
+      "2 to 7 months"
+    ],
+    "Availability": ""
+  },
+  "ASPARAGUS": {
+    "title": "ASPARAGUS",
+    "url": "assets/saved_resource(16).jpeg",
+    "package": " ",
+    "PalletSize": "33F, 10 cpm",
+    "reeferSetting": [
+      "-1°C to 4°C(30°F to 35°F)",
+      " 25 cbm/h",
+      "90 to 95",
+      "2 to 7 months"
+    ],
+    "Availability": ""
+  },
+  "TOMATOES": {
+    "title": "TOMATOES",
+    "url": "assets/saved_resource(22).jpeg",
+    "package": "",
+    "PalletSize": "",
+    "reeferSetting": [
+      "7°C to 15°C(30°F to 35°F)",
+      "15 to 30 cbm/h",
+      "60 to 90",
+      "1 to 4 weeks"
+    ],
+    "Availability": ""
+  }
+}
