@@ -6,9 +6,9 @@ require 'includes/airquote_inc.php';
 	
 	<div class="container">
 	<h3 align="left">Air Quote Calculator</h3>
- <form class="form" role="form" target="" align="left" action="" name="quoteinformation" method="post">
+    <form class="form" role="form" target="" align="left" action="" name="quoteinformation" method="post">
   
-      <div class="form-group" id="result">
+    <div class="form-group" id="result">
 	<div class="col-sm-8">
     <textarea class="form-control"  rows="6" align="center" style="font-size:18px;" name="finalresult">
       <?php 
@@ -30,7 +30,7 @@ require 'includes/airquote_inc.php';
 	</div>
 	</div>
   
-  <div class="form-group" >
+    <div class="form-group" >
 	<label class="control-label">Quote Commodity</label>
 	<div class="col-sm-8 input-group">
 	<select id="mySelect" class="form-control" onchange="airAutofill(this.value)" name="commodityair">
@@ -43,14 +43,14 @@ require 'includes/airquote_inc.php';
 	  <option <?php if ($commodityair == "StoneFruit-VF"){echo "selected='selected'";} ?> value="StoneFruit-VF" >StoneFruit-VF</option>
     </select>
 	</div>
-  </div>
+    </div>
   
-      <div class="form-group">
+    <div class="form-group">
 	<label class="control-label">Notes</label>
 	<div class="col-sm-8 input-group">
 	<input type="text" class="form-control"  placeholder="Input" value="<?php  echo isset($Notes)?$Notes:"";?>" name="Notes">
 	</div>
-  </div>
+    </div>
   
     <div class="form-group">
 	<label class=" control-label">Destination</label>
@@ -66,56 +66,65 @@ require 'includes/airquote_inc.php';
 	  <option <?php if ($Destination == "Taipei"){echo "selected='selected'";} ?> value="Taipei" >Taipei</option>
     </select>
 	</div>
-  </div>
+    </div>
   
   
-  <div class="form-group">
+     <div class="form-group">
 	<label class=" control-label">FOB Fruit Price</label>
 	<div class="col-sm-8 input-group">
     <span class="input-group-addon">$</span>
 	<input type="text" class="form-control"  placeholder="Input" value="<?php  echo isset($FOBprice)?$FOBprice:"";?>" name="FOBprice">
 	</div>
-  </div>
+     </div>
   
-  <div class="form-group">
+    <div class="form-group">
     <label class=" control-label">Commission Rate(Percentage)</label>
 	<div class="col-sm-8 input-group">
 	
     <input type="number" class="form-control"  placeholder="Input" value="<?php  echo isset($commissionRate)?$commissionRate:"";?>" name="commissionRate">
 	<span class="input-group-addon"><?php echo "%" ?></span>
 	</div>
-  </div>
+    </div>
   
     <div class="form-group">
 	<label class=" control-label">Number of Cases/pallet</label>
 	<div class="col-sm-8 input-group">
-    <input type="number" class="form-control"  placeholder="Input" value="<?php  echo isset($NoCS)?$NoCS:"";?>" name="NoCS">
+    <input type="number" class="form-control" oninput="weight()" placeholder="Input" value="<?php  echo isset($NoCS)?$NoCS:"";?>" id="NoCS" name="NoCS">
 	</div>
-  </div>
+    </div>
   
     <div class="form-group">
 	<label class=" control-label">Number of Pallets</label>
 	<div class="col-sm-8 input-group">
-    <input type="number" class="form-control"  placeholder="Input" value="<?php  echo isset($NOPS)?$NOPS:"";?>" name="NOPS">
-	</div>
-  </div>
+    <input type="number" class="form-control"  placeholder="Input" value="<?php  echo isset($NOPS)?$NOPS:"";?>"  name="NOPS">
+   	</div>
+    </div>
   
-  <div class="form-group">
+    <div class="form-group">
 	<label class=" control-label">Air Rate/kg</label>
 	<div class="col-sm-8 input-group">
 	<span class="input-group-addon">$</span>
     <input type="text" class="form-control"  placeholder="Input" value="<?php  echo isset($airrate)?$airrate:"";?>" name="airrate">
 	<span class="input-group-addon"><?php echo "/kg" ?></span>
 	</div>
-  </div>
+    </div>
   
-    <div class="form-group">
-	<label class=" control-label">Gross Weight/Case</label>
-	<div class="col-sm-8 input-group">
-    <input type="text" class="form-control"  placeholder="Input" value="<?php  echo isset($weightpercase)?$weightpercase:"";?>" name="weightpercase">
-	<span class="input-group-addon">kg</span>
+    <div class="form-group clearfix">
+    <div class="col-sm-4">
+        <label class=" control-label">Gross Weight/Case</label>
+        <div class="input-group">
+            <input type="text" class="form-control"  oninput="weight()"  placeholder="Input" value="<?php  echo isset($weightpercase)?$weightpercase:"";?>" id="weightpercase" name="weightpercase">
+            <span class="input-group-addon">kg</span>
+        </div>
 	</div>
-  </div>
+	<div class="col-sm-4">
+        <label class=" control-label">Gross Weight/Pallet</label>
+        <div class="input-group">
+            <input type="text" class="form-control"  oninput="weight()" placeholder="Input" value="<?php  echo isset($weightperpallet)?$weightperpallet:"";?>" id="weightperpallet" name="weightperpallet">
+            <span class="input-group-addon">kg</span>
+        </div>
+    </div>
+  	</div>
   
 
   
@@ -125,7 +134,7 @@ require 'includes/airquote_inc.php';
 	<span class="input-group-addon">$</span>
     <input type="text" class="form-control"  placeholder="Input" value="<?php  echo isset($Trucking)?$Trucking:"";?>" name="Trucking">
 	</div>
-  </div>
+    </div>
   
     <div class="form-group">
 	<label class=" control-label">GelPack/Pallet</label>
@@ -133,7 +142,7 @@ require 'includes/airquote_inc.php';
 	<span class="input-group-addon">$</span>
     <input type="text" class="form-control"  placeholder="Input" value="<?php  echo isset($GelPack)?$GelPack:"";?>" name="GelPack">
 	</div>
-  </div>
+    </div>
   
     <div class="form-group">
 	<label class=" control-label">Coolguard/Pallet</label>
@@ -141,7 +150,7 @@ require 'includes/airquote_inc.php';
 	<span class="input-group-addon">$</span>
     <input type="text" class="form-control"  placeholder="Input" value="<?php  echo isset($coolguard)?$coolguard:"";?>" name="coolguard">
 	</div>
-  </div>
+    </div>
   
     <div class="form-group">
 	<label class=" control-label">Additional Charge/Pallet</label>
@@ -149,7 +158,7 @@ require 'includes/airquote_inc.php';
 	<span class="input-group-addon">$</span>
     <input type="text" class="form-control"  placeholder="Input" value="<?php  echo isset($OtherPalletCharge)?$OtherPalletCharge:"";?>" name="OtherPalletCharge">
 	</div>
-  </div>  
+    </div>
   
     <div class="form-group">
 	<label class=" control-label">Temper Recorder/Shipment</label>
@@ -157,23 +166,23 @@ require 'includes/airquote_inc.php';
 	<span class="input-group-addon">$</span>
     <input type="text" class="form-control"  placeholder="Input" value="<?php  echo isset($temperRecorder)?$temperRecorder:"";?>" name="temperRecorder">
 	</div>
-  </div>
+     </div>
   
-      <div class="form-group">
+     <div class="form-group">
 	<label class=" control-label">Document Fee/Shipment</label>
 	<div class="col-sm-8 input-group">
 	<span class="input-group-addon">$</span>
     <input type="text" class="form-control"  placeholder="Input" value="<?php  echo isset($documentfee)?$documentfee:"";?>" name="documentfee">
 	</div>
-  </div>
+    </div>
   
-      <div class="form-group">
+     <div class="form-group">
 	<label class=" control-label">Phyto Fee/Shipment</label>
 	<div class="col-sm-8 input-group">
 	<span class="input-group-addon">$</span>
     <input type="text" class="form-control"  placeholder="Input" value="<?php  echo isset($phyto)?$phyto:"";?>" name="phyto">
 	</div>
-  </div>
+      </div>
   
     <div class="form-group">
 	<label class=" control-label">Additional Charge/Shipment</label>
@@ -181,10 +190,10 @@ require 'includes/airquote_inc.php';
 	<span class="input-group-addon">$</span>
     <input type="text" class="form-control"  placeholder="Input" value="<?php  echo isset($otherCharge)?$otherCharge:"";?>" name="otherCharge">
 	</div>
-  </div>
+     </div>
   
- </form>
- </div>
+    </form>
+    </div>
  
     
     <script src="js/airquote.js"></script>

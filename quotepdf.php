@@ -20,6 +20,7 @@ require_once('tcpdf/tcpdf.php');
   $commissionRate=_POST('commissionRate');
   $airrate=_POST('airrate');
   $weightpercase=_POST('weightpercase');
+  $weightperpallet=_POST('$weightperpallet');
   $Trucking=_POST('Trucking');
   $AirPortTransfer=_POST('AirPortTransfer');
   $temperRecorder=_POST('temperRecorder');
@@ -32,8 +33,8 @@ require_once('tcpdf/tcpdf.php');
   $NOPS=_POST('NOPS'); 
  
   $FruitPrice = $FOBprice * $commissionRate/100 + $FOBprice;
-  $GrossWeight = $NoCS * $weightpercase;
-  $FreightCost = ($airrate*$weightpercase*$NoCS*$NOPS+$Trucking*$NOPS+$GelPack*$NOPS+$AirPortTransfer*$NOPS+$temperRecorder+$otherCharge+$coolguard*$NOPS+$documentfee+$phyto)/($NoCS*$NOPS);
+  $GrossWeight = $NOPS * $weightperpallet;
+  $FreightCost = ($airrate*$weightperpallet*$NOPS+$Trucking*$NOPS+$GelPack*$NOPS+$AirPortTransfer*$NOPS+$temperRecorder+$otherCharge+$coolguard*$NOPS+$documentfee+$phyto)/($NoCS*$NOPS);
   $finalQuote = $FruitPrice + $FreightCost;
  
 //header and footer
@@ -184,9 +185,9 @@ $pdf->Cell(50, 15, "$ ".round($airrate,2)."/kg", 1, 1, 'C');
 
 $pdf->SetX(45);
 
-$pdf->Cell(80, 15, "Gross Weight", 1, 0, 'L');
+$pdf->Cell(80, 15, "Total Gross Weight", 1, 0, 'L');
 
-$pdf->Cell(50, 15, round($GrossWeight)."kg/Pallet", 1, 1, 'C');
+$pdf->Cell(50, 15, round($GrossWeight)."kg", 1, 1, 'C');
 
 $pdf->SetX(45);
 
