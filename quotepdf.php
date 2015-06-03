@@ -20,7 +20,7 @@ require_once('tcpdf/tcpdf.php');
   $commissionRate=_POST('commissionRate');
   $airrate=_POST('airrate');
   $weightpercase=_POST('weightpercase');
-  $weightperpallet=_POST('$weightperpallet');
+  $weightperpallet=_POST('weightperpallet');
   $Trucking=_POST('Trucking');
   $AirPortTransfer=_POST('AirPortTransfer');
   $temperRecorder=_POST('temperRecorder');
