@@ -90,3 +90,13 @@
         weightperpallet.addEventListener("input", function(){weightpercase.value = (weightperpallet.value/NoCS.value).toFixed(2);});
         weightpercase.addEventListener("input", function(){weightperpallet.value = (weightpercase.value * NoCS.value).toFixed(2);});
     }
+
+	function OrderProfit(){
+        var FOBprice = document.getElementById("FOBprice");
+		var commissionRate = document.getElementById("commissionRate");
+		var netProfit = document.getElementById("netProfit");
+
+        FOBprice.addEventListener("input",function(){netProfit.value = (FOBprice.value * commissionRate.value/100).toFixed(2);});
+        commissionRate.addEventListener("input",function(){netProfit.value = (FOBprice.value * commissionRate.value/100).toFixed(2);});
+        netProfit.addEventListener("input",function(){commissionRate.value = (netProfit.value/FOBprice.value*100).toFixed(1);});
+	}

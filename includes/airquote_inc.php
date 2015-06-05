@@ -17,6 +17,7 @@ if(!defined('USER_TG'))
   $Destination=_POST('Destination');
   $FOBprice=_POST('FOBprice');
   $commissionRate=_POST('commissionRate');
+  $netProfit=_POST('netProfit');
   $airrate=_POST('airrate');
   $weightpercase=_POST('weightpercase');
   $weightperpallet=_POST('weightperpallet');

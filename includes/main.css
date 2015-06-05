@@ -79,3 +79,7 @@ p.title {
 {
     margin-top: 10px;
 }
+
+.Padding-remove-left {
+    padding-left: 0 !important;
+}

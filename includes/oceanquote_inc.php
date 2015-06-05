@@ -17,6 +17,7 @@ if(!defined('USER_TG'))
   $Destination=_POST('Destination');
   $FOBprice=_POST('FOBprice');
   $commissionRate=_POST('commissionRate');
+  $netProfit=_POST('netProfit');
   $container=_POST('container');
   $purfresh=_POST('purfresh');
   $PreCarriage=_POST('PreCarriage');
