@@ -13,14 +13,15 @@
     
   <div class="form-group" id="result">
 	<div class="col-sm-8">
-  <textarea class="form-control"  rows="6" align="center" style="font-size:18px;" name="finalresult">
+  <textarea class="form-control"  rows="7" align="center" style="font-size:18px;" name="finalresult">
       <?php 
 	    echo isset($commodity)?"Commodity: ".$commodity."\n"."      ":"";  
 		echo isset($Destination)?"Destination: ".$Destination."\n"."      ":""; 
 	    echo isset($FruitPrice)?"Fruit Price: $".round($FruitPrice,2)."\n"."      ":"";
-		echo isset($insurance)?"Marine Insurance/Box: $".round($insurance,2)."\n"."      ":"";
-		echo isset($FreightCost)?"Freight Cost/Box: $".round($FreightCost,2)."\n"."      ":"";
-        echo isset($finalQuote)?"Final Quote: $".round($finalQuote,2):"";
+		echo isset($insurance)?"Marine Insurance: $".round($insurance,2)."/Box\n"."      ":"";
+		echo isset($FreightCost)?"Freight Cost: $".round($FreightCost,2)."/Box\n"."      ":"";
+        echo isset($finalQuote)?"Final Quote: $".round($finalQuote,2)."\n"."      ":"";
+        echo isset($netProfit)?"Total Net Profit: $".round($netProfit*$NoCS,2):"";
       ?>
   </textarea>
 	</div>
