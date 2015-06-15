@@ -24,7 +24,6 @@ if(!defined('USER_TG'))
   $Trucking=_POST('Trucking');
   $OtherPalletCharge=_POST('OtherPalletCharge');
   $temperRecorder=_POST('temperRecorder');
-  $GelPack=_POST('GelPack');
   $otherCharge=_POST('otherCharge');
   $coolguard=_POST('coolguard');
   $phyto=_POST('phyto');
@@ -47,6 +46,6 @@ if(!defined('USER_TG'))
   
   
   $FruitPrice = $FOBprice * $commissionRate/100 + $FOBprice;
-  $FreightCost = ($airrate*$weightperpallet*$NOPS+$Trucking*$NOPS+$GelPack*$NOPS+$OtherPalletCharge*$NOPS+$temperRecorder+$otherCharge+$coolguard*$NOPS+$documentfee+$phyto)/($NoCS*$NOPS);
+  $FreightCost = ($airrate*$weightperpallet*$NOPS+$Trucking*$NOPS+$OtherPalletCharge*$NOPS+$temperRecorder+$otherCharge+$coolguard*$NOPS+$documentfee+$phyto)/($NoCS*$NOPS);
   $finalQuote = $FruitPrice + $FreightCost;
   ?>
